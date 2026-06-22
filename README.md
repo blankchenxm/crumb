@@ -46,7 +46,13 @@ it is, shown next to a micro-USB cable for scale.
 
 <p align="center"><sub>Crumb v1 — front (left) and back (right).</sub></p>
 
-<p align="center"><b>Just 2.2&nbsp;cm wide — tiny enough to be worn.</b></p>
+<p align="center">
+  <img src="fig/compare.png" alt="Crumb v1 PCB next to a coin, about the same size" width="60%">
+</p>
+
+<p align="center"><sub>Crumb v1 next to a coin — about the same size.</sub></p>
+
+<p align="center"><b>Just 2.2&nbsp;cm wide — about the size of a coin, small enough to be worn.</b></p>
 
 ## Repository structure
 
