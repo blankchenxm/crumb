@@ -46,6 +46,8 @@ it is, shown next to a micro-USB cable for scale.
 
 <p align="center"><sub>Crumb v1 — front (left) and back (right).</sub></p>
 
+<p align="center"><b>Just 2.2&nbsp;cm wide — tiny enough to be worn.</b></p>
+
 ## Repository structure
 
 | Directory | Description |
