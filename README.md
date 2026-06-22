@@ -148,4 +148,4 @@ contributions are welcome.
 
 ## License
 
-No license specified yet.
+Released under the [MIT License](LICENSE).
