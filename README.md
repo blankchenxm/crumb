@@ -111,6 +111,36 @@ your own Crumb.
 
 ---
 
+## Roadmap — Crumb v1 to-do
+
+A living checklist of what's left for Crumb v1. Boxes get ticked as things land.
+
+### Firmware
+
+- [ ] Finish the v1 recording logic: name each clip by capture time; with no
+  Wi-Fi, store to flash; once Wi-Fi is available, upload everything buffered in
+  flash.
+- [ ] On-device audio processing: average the two channels + Opus compression on
+  the device, decompress in the cloud.
+
+### Hardware
+
+- [ ] Add a battery.
+- [ ] Build a 3D-printed enclosure.
+- [ ] Wear it more — find the problems that only show up during long, real-world use.
+
+### Software
+
+- [ ] Stand up the cloud server (targeting a Mac mini) so Crumb can upload audio
+  from any Wi-Fi it connects to.
+- [ ] Server-side audio pipeline: basic processing (normalization + RNNoise),
+  then VAD + STT — with a focus on multilingual, offline STT.
+- [ ] Three core pages:
+  - [ ] **Audio** — waveform/timeline view + transcript.
+  - [ ] **Project mind map** — auto-group audio per project and lay out how each
+    idea evolved along a timeline.
+  - [ ] **Chatbot** — chat with your ideas.
+
 ## Status
 
 Crumb v1 is the first working version. It's handmade and evolving — feedback and
