@@ -11,6 +11,10 @@ remark, the answer to the question you'll have tomorrow. **Crumb** picks them up
 Crumb is an **open source, handmade, low-cost AI recorder** — small enough to
 wear, simple enough to build yourself.
 
+<p align="center">
+  <img src="fig/concept.png" alt="Crumb concept: press the button and your idea crumbs get collected" width="420">
+</p>
+
 ---
 
 ## What it does
@@ -27,6 +31,20 @@ The flow is dead simple:
 
 You wear it, you tap it, and the things worth remembering get caught before they
 fall.
+
+## Crumb v1 hardware
+
+The current v1 is a small, round, hand-assembled PCB — a single button to start
+recording, a microphone, and Wi-Fi / BLE on board to upload what it hears. Here
+it is, shown next to a micro-USB cable for scale.
+
+<p align="center">
+  <img src="fig/crumb_v1_front.jpg" alt="Crumb v1 PCB, front" width="46%">
+  &nbsp;&nbsp;
+  <img src="fig/crumb_v1_back.jpg" alt="Crumb v1 PCB, back" width="46%">
+</p>
+
+<p align="center"><sub>Crumb v1 — front (left) and back (right).</sub></p>
 
 ## Repository structure
 
