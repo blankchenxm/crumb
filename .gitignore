@@ -1,0 +1,21 @@
+# Third-party reference project (700M, not part of crumb)
+reference/Omi/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets / local env
+.env
+*.env
+!**/build/**/config.env
+
+# Claude Code local config
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

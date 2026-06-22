@@ -1,0 +1,1 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\blank\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DSDKCONFIG='d:\Projects\Button\Software\ESP-IDF\i2s_es7210_tdm\sdkconfig' -DCCACHE_ENABLE=1 D:\Projects\Button\Software\ESP-IDF\i2s_es7210_tdm

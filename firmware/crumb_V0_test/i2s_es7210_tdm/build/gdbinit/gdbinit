@@ -1,0 +1,2 @@
+source D:/Projects/Button/Software/ESP-IDF/i2s_es7210_tdm/build/gdbinit/symbols
+source D:/Projects/Button/Software/ESP-IDF/i2s_es7210_tdm/build/gdbinit/connect

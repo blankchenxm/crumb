@@ -1,0 +1,28 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\blank\\esp\\esp-idf",
+  "idf.toolsPathWin": "C:\\Users\\blank\\.espressif",
+  "idf.pythonInstallPath": "C:\\Users\\blank\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "C:\\Users\\blank\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1",
+    "ESP_ROM_ELF_DIR": "C:\\Users\\blank\\.espressif\\tools\\esp-rom-elfs\\20230320/",
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Users\\blank\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\blank\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=d:\\Projects\\Button\\Software\\ESP-IDF\\i2s_es8311\\build"
+  ],
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "files.associations": {
+    "sdspi_host.h": "c",
+    "example_config.h": "c",
+    "sdmmc_cmd.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM3"
+}

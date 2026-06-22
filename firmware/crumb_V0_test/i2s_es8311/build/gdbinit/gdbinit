@@ -1,0 +1,2 @@
+source D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/gdbinit/symbols
+source D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/gdbinit/connect

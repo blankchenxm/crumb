@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "019ee93f-5e57-7cd1-9152-fac16dbb2b51",
+    "sha256": "447cc008d5421359bca3b52053ccac71aa4919483b4f99592e03ae156e26485a",
+    "created": "2026-06-21T08:15:06.473Z",
+    "duration": 12.64,
+    "channels": 1,
+    "models": [
+      "b6e78fa4-ac4f-4f32-93f0-2b6906832fb5"
+    ],
+    "model_info": {
+      "b6e78fa4-ac4f-4f32-93f0-2b6906832fb5": {
+        "name": "general-nova-3",
+        "version": "2026-01-27.9107",
+        "arch": "nova-3"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Sure. We're not forgetting anything. I'm sure. We got all the pieces covered. Well, let's get going then. I love road trips.",
+            "confidence": 0.9637044,
+            "languages": [
+              "en"
+            ],
+            "words": [
+              {
+                "word": "sure",
+                "start": 0.39999998,
+                "end": 1.04,
+                "confidence": 0.6016846,
+                "speaker": 0,
+                "speaker_confidence": 0.20027173,
+                "punctuated_word": "Sure.",
+                "language": "en"
+              },
+              {
+                "word": "we're",
+                "start": 4.88,
+                "end": 4.96,
+                "confidence": 0.9753418,
+                "speaker": 0,
+                "speaker_confidence": 0.5055175,
+                "punctuated_word": "We're",
+                "language": "en"
+              },
+              {
+                "word": "not",
+                "start": 4.96,
+                "end": 5.04,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 0.5055175,
+                "punctuated_word": "not",
+                "language": "en"
+              },
+              {
+                "word": "forgetting",
+                "start": 5.04,
+                "end": 5.44,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.5055175,
+                "punctuated_word": "forgetting",
+                "language": "en"
+              },
+              {
+                "word": "anything",
+                "start": 5.44,
+                "end": 6.08,
+                "confidence": 0.99853516,
+                "speaker": 0,
+                "speaker_confidence": 0.5055175,
+                "punctuated_word": "anything.",
+                "language": "en"
+              },
+              {
+                "word": "i'm",
+                "start": 6.16,
+                "end": 6.56,
+                "confidence": 0.92529297,
+                "speaker": 0,
+                "speaker_confidence": 0.5055175,
+                "punctuated_word": "I'm",
+                "language": "en"
+              },
+              {
+                "word": "sure",
+                "start": 6.56,
+                "end": 7.04,
+                "confidence": 0.7182617,
+                "speaker": 0,
+                "speaker_confidence": 0.5055175,
+                "punctuated_word": "sure.",
+                "language": "en"
+              },
+              {
+                "word": "we",
+                "start": 7.04,
+                "end": 7.2799997,
+                "confidence": 0.36572266,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "We",
+                "language": "en"
+              },
+              {
+                "word": "got",
+                "start": 7.2799997,
+                "end": 7.44,
+                "confidence": 0.68066406,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "got",
+                "language": "en"
+              },
+              {
+                "word": "all",
+                "start": 7.44,
+                "end": 7.6,
+                "confidence": 0.88720703,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "all",
+                "language": "en"
+              },
+              {
+                "word": "the",
+                "start": 7.6,
+                "end": 7.68,
+                "confidence": 0.84472656,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "the",
+                "language": "en"
+              },
+              {
+                "word": "pieces",
+                "start": 7.68,
+                "end": 7.9199996,
+                "confidence": 0.33398438,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "pieces",
+                "language": "en"
+              },
+              {
+                "word": "covered",
+                "start": 7.9199996,
+                "end": 8.48,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "covered.",
+                "language": "en"
+              },
+              {
+                "word": "well",
+                "start": 8.48,
+                "end": 9.12,
+                "confidence": 0.99365234,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "Well,",
+                "language": "en"
+              },
+              {
+                "word": "let's",
+                "start": 9.12,
+                "end": 9.44,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "let's",
+                "language": "en"
+              },
+              {
+                "word": "get",
+                "start": 9.44,
+                "end": 9.599999,
+                "confidence": 0.91503906,
+                "speaker": 0,
+                "speaker_confidence": 0.4773817,
+                "punctuated_word": "get",
+                "language": "en"
+              },
+              {
+                "word": "going",
+                "start": 9.599999,
+                "end": 9.76,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 0.45024467,
+                "punctuated_word": "going",
+                "language": "en"
+              },
+              {
+                "word": "then",
+                "start": 9.76,
+                "end": 10.16,
+                "confidence": 0.8911133,
+                "speaker": 0,
+                "speaker_confidence": 0.45024467,
+                "punctuated_word": "then.",
+                "language": "en"
+              },
+              {
+                "word": "i",
+                "start": 10.16,
+                "end": 10.24,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.45024467,
+                "punctuated_word": "I",
+                "language": "en"
+              },
+              {
+                "word": "love",
+                "start": 10.24,
+                "end": 10.639999,
+                "confidence": 0.9921875,
+                "speaker": 0,
+                "speaker_confidence": 0.45024467,
+                "punctuated_word": "love",
+                "language": "en"
+              },
+              {
+                "word": "road",
+                "start": 10.639999,
+                "end": 10.96,
+                "confidence": 0.94140625,
+                "speaker": 0,
+                "speaker_confidence": 0.45024467,
+                "punctuated_word": "road",
+                "language": "en"
+              },
+              {
+                "word": "trips",
+                "start": 10.96,
+                "end": 11.2,
+                "confidence": 0.9637044,
+                "speaker": 0,
+                "speaker_confidence": 0.45024467,
+                "punctuated_word": "trips.",
+                "language": "en"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: Sure. We're not forgetting anything. I'm sure. We got all the pieces covered. Well, let's get going then.\n\nI love road trips.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Sure.",
+                      "start": 0.39999998,
+                      "end": 1.04
+                    },
+                    {
+                      "text": "We're not forgetting anything.",
+                      "start": 4.88,
+                      "end": 6.08
+                    },
+                    {
+                      "text": "I'm sure.",
+                      "start": 6.16,
+                      "end": 7.04
+                    },
+                    {
+                      "text": "We got all the pieces covered.",
+                      "start": 7.04,
+                      "end": 8.48
+                    },
+                    {
+                      "text": "Well, let's get going then.",
+                      "start": 8.48,
+                      "end": 10.16
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 18,
+                  "start": 0.39999998,
+                  "end": 10.16
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I love road trips.",
+                      "start": 10.16,
+                      "end": 11.2
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 4,
+                  "start": 10.16,
+                  "end": 11.2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.39999998,
+        "end": 1.04,
+        "confidence": 0.6016846,
+        "channel": 0,
+        "transcript": "Sure.",
+        "languages": [
+          "en"
+        ],
+        "words": [
+          {
+            "word": "sure",
+            "start": 0.39999998,
+            "end": 1.04,
+            "confidence": 0.6016846,
+            "speaker": 0,
+            "speaker_confidence": 0.20027173,
+            "punctuated_word": "Sure.",
+            "language": "en"
+          }
+        ],
+        "speaker": 0,
+        "id": "ab9c74f2-f3ab-4685-a183-aa6b248ed29f"
+      },
+      {
+        "start": 4.88,
+        "end": 11.2,
+        "confidence": 0.8771895,
+        "channel": 0,
+        "transcript": "We're not forgetting anything. I'm sure. We got all the pieces covered. Well, let's get going then. I love road trips.",
+        "languages": [
+          "en"
+        ],
+        "words": [
+          {
+            "word": "we're",
+            "start": 4.88,
+            "end": 4.96,
+            "confidence": 0.9753418,
+            "speaker": 0,
+            "speaker_confidence": 0.5055175,
+            "punctuated_word": "We're",
+            "language": "en"
+          },
+          {
+            "word": "not",
+            "start": 4.96,
+            "end": 5.04,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 0.5055175,
+            "punctuated_word": "not",
+            "language": "en"
+          },
+          {
+            "word": "forgetting",
+            "start": 5.04,
+            "end": 5.44,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.5055175,
+            "punctuated_word": "forgetting",
+            "language": "en"
+          },
+          {
+            "word": "anything",
+            "start": 5.44,
+            "end": 6.08,
+            "confidence": 0.99853516,
+            "speaker": 0,
+            "speaker_confidence": 0.5055175,
+            "punctuated_word": "anything.",
+            "language": "en"
+          },
+          {
+            "word": "i'm",
+            "start": 6.16,
+            "end": 6.56,
+            "confidence": 0.92529297,
+            "speaker": 0,
+            "speaker_confidence": 0.5055175,
+            "punctuated_word": "I'm",
+            "language": "en"
+          },
+          {
+            "word": "sure",
+            "start": 6.56,
+            "end": 7.04,
+            "confidence": 0.7182617,
+            "speaker": 0,
+            "speaker_confidence": 0.5055175,
+            "punctuated_word": "sure.",
+            "language": "en"
+          },
+          {
+            "word": "we",
+            "start": 7.04,
+            "end": 7.2799997,
+            "confidence": 0.36572266,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "We",
+            "language": "en"
+          },
+          {
+            "word": "got",
+            "start": 7.2799997,
+            "end": 7.44,
+            "confidence": 0.68066406,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "got",
+            "language": "en"
+          },
+          {
+            "word": "all",
+            "start": 7.44,
+            "end": 7.6,
+            "confidence": 0.88720703,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "all",
+            "language": "en"
+          },
+          {
+            "word": "the",
+            "start": 7.6,
+            "end": 7.68,
+            "confidence": 0.84472656,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "the",
+            "language": "en"
+          },
+          {
+            "word": "pieces",
+            "start": 7.68,
+            "end": 7.9199996,
+            "confidence": 0.33398438,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "pieces",
+            "language": "en"
+          },
+          {
+            "word": "covered",
+            "start": 7.9199996,
+            "end": 8.48,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "covered.",
+            "language": "en"
+          },
+          {
+            "word": "well",
+            "start": 8.48,
+            "end": 9.12,
+            "confidence": 0.99365234,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "Well,",
+            "language": "en"
+          },
+          {
+            "word": "let's",
+            "start": 9.12,
+            "end": 9.44,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "let's",
+            "language": "en"
+          },
+          {
+            "word": "get",
+            "start": 9.44,
+            "end": 9.599999,
+            "confidence": 0.91503906,
+            "speaker": 0,
+            "speaker_confidence": 0.4773817,
+            "punctuated_word": "get",
+            "language": "en"
+          },
+          {
+            "word": "going",
+            "start": 9.599999,
+            "end": 9.76,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 0.45024467,
+            "punctuated_word": "going",
+            "language": "en"
+          },
+          {
+            "word": "then",
+            "start": 9.76,
+            "end": 10.16,
+            "confidence": 0.8911133,
+            "speaker": 0,
+            "speaker_confidence": 0.45024467,
+            "punctuated_word": "then.",
+            "language": "en"
+          },
+          {
+            "word": "i",
+            "start": 10.16,
+            "end": 10.24,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.45024467,
+            "punctuated_word": "I",
+            "language": "en"
+          },
+          {
+            "word": "love",
+            "start": 10.24,
+            "end": 10.639999,
+            "confidence": 0.9921875,
+            "speaker": 0,
+            "speaker_confidence": 0.45024467,
+            "punctuated_word": "love",
+            "language": "en"
+          },
+          {
+            "word": "road",
+            "start": 10.639999,
+            "end": 10.96,
+            "confidence": 0.94140625,
+            "speaker": 0,
+            "speaker_confidence": 0.45024467,
+            "punctuated_word": "road",
+            "language": "en"
+          },
+          {
+            "word": "trips",
+            "start": 10.96,
+            "end": 11.2,
+            "confidence": 0.9637044,
+            "speaker": 0,
+            "speaker_confidence": 0.45024467,
+            "punctuated_word": "trips.",
+            "language": "en"
+          }
+        ],
+        "speaker": 0,
+        "id": "1c8be6ee-61bd-4c59-8435-7da017ece476"
+      }
+    ]
+  }
+}

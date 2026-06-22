@@ -1,0 +1,21 @@
+dependencies:
+  espressif/es7210:
+    component_hash: 761ac59d31d8babb01f6338045cc877f2a75027bae9823a4e4d0b6e5b6f63faf
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4,<6.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.1~1
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+direct_dependencies:
+- espressif/es7210
+- idf
+manifest_hash: 16923632f191aeb1eb847864ac92446fd29ab24231220af32606899a7a8be13f
+target: esp32s3
+version: 2.0.0

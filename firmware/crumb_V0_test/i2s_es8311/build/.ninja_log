@@ -1,0 +1,7 @@
+# ninja log v6
+315	538	7820711850738730	project_elf_src_esp32s3.c	efa9fb2db356d209
+315	538	7820711850738730	D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/project_elf_src_esp32s3.c	efa9fb2db356d209
+80	552	7820711850967712	esp-idf/esp_system/ld/memory.ld	1e0ce81440ec2195
+80	552	7820711850967712	D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/esp-idf/esp_system/ld/memory.ld	1e0ce81440ec2195
+142	606	7820711851501495	esp-idf/esp_system/ld/sections.ld.in	eae4b016656609f5
+142	606	7820711851501495	D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/esp-idf/esp_system/ld/sections.ld.in	eae4b016656609f5

@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "019ee939-11e6-7683-a483-3e0587cc6f91",
+    "sha256": "4c648a1a71b5c5a846f391b3c706356ee0ce03697e9796787f424f8032b40b60",
+    "created": "2026-06-21T08:08:14.428Z",
+    "duration": 3.712,
+    "channels": 1,
+    "models": [
+      "590fbdab-27f4-41f8-838e-a097a07b9ddf"
+    ],
+    "model_info": {
+      "590fbdab-27f4-41f8-838e-a097a07b9ddf": {
+        "name": "general-nova-3",
+        "version": "2026-03-31.10458",
+        "arch": "nova-3"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "1234567这里是新闻联播说话的声音",
+            "confidence": 0.98291016,
+            "words": [
+              {
+                "word": "123",
+                "start": 0.08,
+                "end": 0.56,
+                "confidence": 0.6308594,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "123"
+              },
+              {
+                "word": "45",
+                "start": 0.56,
+                "end": 1.04,
+                "confidence": 1.0,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "45"
+              },
+              {
+                "word": "67",
+                "start": 1.04,
+                "end": 1.76,
+                "confidence": 0.67089844,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "67"
+              },
+              {
+                "word": "这里是",
+                "start": 1.8399999,
+                "end": 2.32,
+                "confidence": 0.8574219,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "这里是"
+              },
+              {
+                "word": "新闻",
+                "start": 2.32,
+                "end": 2.6399999,
+                "confidence": 0.98535156,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "新闻"
+              },
+              {
+                "word": "联",
+                "start": 2.6399999,
+                "end": 2.8,
+                "confidence": 0.6147461,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "联"
+              },
+              {
+                "word": "播",
+                "start": 2.8,
+                "end": 2.8799999,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "播"
+              },
+              {
+                "word": "说话",
+                "start": 2.8799999,
+                "end": 3.28,
+                "confidence": 0.98291016,
+                "speaker": 0,
+                "speaker_confidence": 1.0,
+                "punctuated_word": "说话"
+              },
+              {
+                "word": "的声音",
+                "start": 3.28,
+                "end": 4.48,
+                "confidence": 0.9873047,
+                "speaker": 0,
+                "speaker_confidence": 0.0,
+                "punctuated_word": "的声音"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nSpeaker 0: 123 45 67 这里是 新闻 联 播 说话 的声音",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "123 45 67 这里是 新闻 联 播 说话 的声音",
+                      "start": 0.08,
+                      "end": 4.48
+                    }
+                  ],
+                  "speaker": 0,
+                  "num_words": 9,
+                  "start": 0.08,
+                  "end": 4.48
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.08,
+        "end": 4.48,
+        "confidence": 0.85861546,
+        "channel": 0,
+        "transcript": "123 45 67 这里是 新闻 联 播 说话 的声音",
+        "words": [
+          {
+            "word": "123",
+            "start": 0.08,
+            "end": 0.56,
+            "confidence": 0.6308594,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "123"
+          },
+          {
+            "word": "45",
+            "start": 0.56,
+            "end": 1.04,
+            "confidence": 1.0,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "45"
+          },
+          {
+            "word": "67",
+            "start": 1.04,
+            "end": 1.76,
+            "confidence": 0.67089844,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "67"
+          },
+          {
+            "word": "这里是",
+            "start": 1.8399999,
+            "end": 2.32,
+            "confidence": 0.8574219,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "这里是"
+          },
+          {
+            "word": "新闻",
+            "start": 2.32,
+            "end": 2.6399999,
+            "confidence": 0.98535156,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "新闻"
+          },
+          {
+            "word": "联",
+            "start": 2.6399999,
+            "end": 2.8,
+            "confidence": 0.6147461,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "联"
+          },
+          {
+            "word": "播",
+            "start": 2.8,
+            "end": 2.8799999,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "播"
+          },
+          {
+            "word": "说话",
+            "start": 2.8799999,
+            "end": 3.28,
+            "confidence": 0.98291016,
+            "speaker": 0,
+            "speaker_confidence": 1.0,
+            "punctuated_word": "说话"
+          },
+          {
+            "word": "的声音",
+            "start": 3.28,
+            "end": 4.48,
+            "confidence": 0.9873047,
+            "speaker": 0,
+            "speaker_confidence": 0.0,
+            "punctuated_word": "的声音"
+          }
+        ],
+        "speaker": 0,
+        "id": "eeb38696-2853-4fc2-bfcf-a029d53a9041"
+      }
+    ]
+  }
+}

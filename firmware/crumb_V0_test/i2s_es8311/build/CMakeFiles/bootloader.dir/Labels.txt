@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/CMakeFiles/bootloader
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/CMakeFiles/bootloader.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/CMakeFiles/bootloader-complete.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Projects/Button/Software/ESP-IDF/i2s_es8311/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,18 @@
+src/rnnoise_data.lo: src/rnnoise_data.c config.h src/rnnoise_data.h \
+ src/nnet.h /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/stddef.h \
+ src/opus_types.h /usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/features.h /usr/include/_newlib_version.h \
+ /usr/include/sys/_intsup.h /usr/include/sys/_stdint.h
+config.h:
+src/rnnoise_data.h:
+src/nnet.h:
+/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/stddef.h:
+src/opus_types.h:
+/usr/lib/gcc/x86_64-pc-cygwin/15.2.0/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/machine/_default_types.h:
+/usr/include/sys/features.h:
+/usr/include/_newlib_version.h:
+/usr/include/sys/_intsup.h:
+/usr/include/sys/_stdint.h:
