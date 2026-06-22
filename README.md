@@ -155,3 +155,14 @@ contributions are welcome.
 ## License
 
 Released under the [MIT License](LICENSE).
+
+---
+
+## Future versions — ideas to-do (continuously updated)
+
+### Hardware V2 (referencing [Omi](https://github.com/BasedHardware/omi))
+
+- [ ] Rethink the main chip selection (BLE or Wi-Fi SoC? + flash).
+- [ ] Extra features: RTC / a status LED to show recording state / a motor for
+  haptic feedback.
+- [ ] Add a speaker, to communicate back.
