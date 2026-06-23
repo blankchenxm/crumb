@@ -20,6 +20,10 @@ set -a
 source .env
 set +a
 
+# This server only calls api.siliconflow.cn (in China) — it must NOT go through
+# a proxy. Drop any proxy vars inherited from the shell so requests go direct.
+unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
+
 source .venv/bin/activate
 
 mkdir -p logs
