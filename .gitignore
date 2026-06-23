@@ -12,6 +12,11 @@ venv/
 .env
 *.env
 !**/build/**/config.env
+!software/.env.example
+
+# Server runtime files
+software/logs/
+software/server.pid
 
 # Claude Code local config
 .claude/
