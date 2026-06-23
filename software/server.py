@@ -1,10 +1,9 @@
-from __future__ import annotations
-
 import os
 import re
 import asyncio
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
 
 from fastapi import FastAPI, Request, Query, HTTPException
 from openai import OpenAI
@@ -27,7 +26,7 @@ ASR_MODEL = "FunAudioLLM/SenseVoiceSmall"
 MAX_FILE_SIZE = 50 * 1024 * 1024  # 50 MB
 
 
-def safe_filename(filename: str | None) -> str:
+def safe_filename(filename: Optional[str]) -> str:
     if not filename:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         return f"REC_{timestamp}.wav"
@@ -79,7 +78,7 @@ def transcribe_audio(audio_path: Path) -> str:
 @app.post("/upload")
 async def upload_audio(
     request: Request,
-    filename: str | None = Query(default=None),
+    filename: Optional[str] = Query(default=None),
 ):
     data = await request.body()
 
