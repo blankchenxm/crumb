@@ -38,7 +38,10 @@
 #define WIFI_SSID               "blankmeng"
 #define WIFI_PASS               "chen106416336"
 // #define SERVER_URL              "http://121.41.97.112:8080/upload"
-#define SERVER_URL              "https://crumb.xiaomeng-research.xyz/upload"
+// HTTPS to the tunnel needs ESP32 TLS to negotiate with Cloudflare (finicky);
+// using plain HTTP on Cloudflare's port 80 (disable "Always Use HTTPS") instead.
+// #define SERVER_URL              "https://crumb.xiaomeng-research.xyz/upload"
+#define SERVER_URL              "http://crumb.xiaomeng-research.xyz/upload"
 
 #define KEY_PIN                 4
 #define KEY_ACTIVE_LEVEL        0
@@ -990,12 +993,7 @@ static esp_err_t upload_latest_recording(recording_metadata_t *meta)
         .buffer_size_tx = 16384,
         .keep_alive_enable = true,
         .keep_alive_interval = 5000,
-        .transport_type = HTTP_TRANSPORT_OVER_SSL,
-        // NOTE: server cert verification is disabled (no CA bundle attached).
-        // The cert bundle lacks Cloudflare's current root CA, so verification
-        // fails with -0x3000. Traffic is still TLS-encrypted, just unverified.
-        // For proper security later, embed the root CA and use .cert_pem instead.
-        .skip_cert_common_name_check = true,
+        .transport_type = HTTP_TRANSPORT_OVER_TCP,
     };
 
     esp_http_client_handle_t client = esp_http_client_init(&config);
