@@ -30,6 +30,33 @@ and not directly reachable from the LAN.
 | `./stop.sh` | Stop the background server. |
 | `tail -f logs/server.log` | Watch live logs. |
 
+## Always-on + auto-update (Mac mini)
+
+For a Mac mini that should keep the server running and stay in sync with GitHub
+without manual `git pull`, install the LaunchAgents:
+
+```bash
+cd ~/research/crumb/software
+./install-services.sh
+```
+
+This sets up two user LaunchAgents:
+
+| Agent | Behavior |
+|-------|----------|
+| `com.crumb.serve` | Runs the server via `serve.sh`, restarts on crash, starts at login. Logs: `logs/serve.log`. |
+| `com.crumb.sync` | Every 60s runs `sync-github.sh`: `git fetch`, and on new commits `git pull` + restart the server (reinstalls deps if `requirements.txt` changed). Logs: `logs/sync.log`. |
+
+Notes:
+- Workflow stays **edit on PC → push → Mac auto-pulls**. Don't commit on the Mac
+  (the sync uses `git pull --ff-only` and will skip if the Mac has diverged).
+- LaunchAgents don't read `~/.zshrc`, so `install-services.sh` copies your current
+  `HTTPS_PROXY` into `.env` as `CRUMB_GIT_PROXY` so GitHub fetches work behind a proxy.
+- Change the interval: `CRUMB_SYNC_INTERVAL=30 ./install-services.sh`.
+- Remove everything: `./uninstall-services.sh`.
+- `serve.sh` is the foreground launcher for launchd; `run.sh` is for manual use.
+  Don't run both at once (port 8000 clash) — `install-services.sh` stops `run.sh` first.
+
 ## Notes
 
 - `.env` holds your keys and is **gitignored** — it never leaves the Mac.
