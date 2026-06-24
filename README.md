@@ -137,8 +137,12 @@ A living checklist of what's left for Crumb v1. Boxes get ticked as things land.
 
 ### Software
 
-- [ ] Stand up the cloud server (targeting a Mac mini) so Crumb can upload audio
-  from any Wi-Fi it connects to.
+- [x] Stand up the cloud server (targeting a Mac mini) so Crumb can upload audio
+  from any Wi-Fi it connects to. *(Done: running on the Mac mini, exposed via a
+  Cloudflare tunnel; the device uploads successfully from any network.)*
+  - Currently using **HTTP** (plain, not HTTPS) for the device → server upload.
+  - Upload speed is noticeably **slow** — need to measure upload throughput and
+    investigate how to speed it up.
 - [ ] Server-side audio pipeline: basic processing (normalization + RNNoise),
   then VAD + STT — with a focus on multilingual, offline STT.
 - [ ] Three core pages:
